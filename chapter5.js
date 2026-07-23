@@ -145,10 +145,10 @@
       const articuno = await GameEngine.PokemonAPI.getPokemon(144);
       articuno.name = 'フリーザー';
       articuno.level = 70;
-      articuno.hp = Math.floor(articuno.hp * 1.5);
+      articuno.hp = Math.floor(articuno.hp * 1.0);
       articuno.maxHp = articuno.hp;
-      articuno.atk = Math.floor(articuno.atk * 1.3);
-      articuno.def = Math.floor(articuno.def * 1.3);
+      articuno.atk = Math.floor(articuno.atk * 1.1);
+      articuno.def = Math.floor(articuno.def * 1.1);
 
       // ポケモンが足りない場合の補充
       if (GameEngine.Data.state.pokemon.length === 0) {
@@ -225,10 +225,10 @@
       const mewtwo = await GameEngine.PokemonAPI.getPokemon(150);
       mewtwo.name = 'ミュウツー';
       mewtwo.level = 75;
-      mewtwo.hp = Math.floor(mewtwo.hp * 1.8);
+      mewtwo.hp = Math.floor(mewtwo.hp * 1.0);
       mewtwo.maxHp = mewtwo.hp;
-      mewtwo.atk = Math.floor(mewtwo.atk * 1.5);
-      mewtwo.def = Math.floor(mewtwo.def * 1.3);
+      mewtwo.atk = Math.floor(mewtwo.atk * 1.2);
+      mewtwo.def = Math.floor(mewtwo.def * 1.2);
 
       // パーティ選抜
       const alivePokemon2 = GameEngine.Data.state.pokemon.filter(p => p.hp > 0);
@@ -503,10 +503,10 @@
         const mew = await GameEngine.PokemonAPI.getPokemon(151);
         mew.name = 'ミュウ';
         mew.level = 80;
-        mew.hp = Math.floor(mew.hp * 2.0);
+        mew.hp = Math.floor(mew.hp * 1.0);
         mew.maxHp = mew.hp;
-        mew.atk = Math.floor(mew.atk * 1.6);
-        mew.def = Math.floor(mew.def * 1.5);
+        mew.atk = Math.floor(mew.atk * 1.2);
+        mew.def = Math.floor(mew.def * 1.1);
 
         // 回復の選択肢
         const choice9 = await C([
