@@ -227,7 +227,7 @@
       mewtwo.level = 75;
       mewtwo.hp = Math.floor(mewtwo.hp * 1.0);
       mewtwo.maxHp = mewtwo.hp;
-      mewtwo.atk = Math.floor(mewtwo.atk * 1.5);
+      mewtwo.atk = Math.floor(mewtwo.atk * 1.8);
       mewtwo.def = Math.floor(mewtwo.def * 1.0);
 
       // パーティ選抜
@@ -503,9 +503,9 @@
         const mew = await GameEngine.PokemonAPI.getPokemon(151);
         mew.name = 'ミュウ';
         mew.level = 80;
-        mew.hp = Math.floor(mew.hp * 1.0);
+        mew.hp = Math.floor(mew.hp * 1.2);
         mew.maxHp = mew.hp;
-        mew.atk = Math.floor(mew.atk * 2.0);
+        mew.atk = Math.floor(mew.atk * 2.3);
         mew.def = Math.floor(mew.def * 1.2);
 
         // 回復の選択肢
