@@ -227,7 +227,7 @@
       mewtwo.level = 75;
       mewtwo.hp = Math.floor(mewtwo.hp * 1.0);
       mewtwo.maxHp = mewtwo.hp;
-      mewtwo.atk = Math.floor(mewtwo.atk * 1.6);
+      mewtwo.atk = Math.floor(mewtwo.atk * 1.5);
       mewtwo.def = Math.floor(mewtwo.def * 1.0);
 
       // パーティ選抜
@@ -505,8 +505,8 @@
         mew.level = 80;
         mew.hp = Math.floor(mew.hp * 1.0);
         mew.maxHp = mew.hp;
-        mew.atk = Math.floor(mew.atk * 2.0);
-        mew.def = Math.floor(mew.def * 1.1);
+        mew.atk = Math.floor(mew.atk * 1.8);
+        mew.def = Math.floor(mew.def * 1.0);
 
         // 回復の選択肢
         const choice9 = await C([
