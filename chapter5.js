@@ -505,8 +505,8 @@
         mew.level = 80;
         mew.hp = Math.floor(mew.hp * 1.0);
         mew.maxHp = mew.hp;
-        mew.atk = Math.floor(mew.atk * 1.8);
-        mew.def = Math.floor(mew.def * 1.0);
+        mew.atk = Math.floor(mew.atk * 2.0);
+        mew.def = Math.floor(mew.def * 1.2);
 
         // 回復の選択肢
         const choice9 = await C([
